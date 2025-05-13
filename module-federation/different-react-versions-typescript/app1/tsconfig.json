@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "*": ["./@mf-types/*"]
+    }
+  },
+  "include": ["src/**/*", "**/*.d.ts"],
+  "exclude": ["node_modules"]
+}
